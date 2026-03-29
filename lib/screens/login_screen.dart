@@ -18,7 +18,7 @@ class LoginScreen extends StatelessWidget {
 
         decoration: const BoxDecoration(
           gradient: LinearGradient(
-            colors: [Colors.deepPurple, Colors.purpleAccent],
+            colors: [Color.fromARGB(255, 255, 0, 0), Color.fromARGB(255, 255, 96, 96)],
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
           ),
@@ -72,7 +72,7 @@ class LoginScreen extends StatelessWidget {
 
                 ElevatedButton(
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.deepPurple[900],
+                    backgroundColor: const Color.fromARGB(255, 0, 0, 0),
                     minimumSize: const Size(double.infinity, 50),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(20),
@@ -102,7 +102,7 @@ class LoginScreen extends StatelessWidget {
                       );
                     }
                   },
-                  child: const Text("Entrar"), // 👈 FALTAVA ISSO
+                  child: const Text("Entrar"),
                 ),
 
                 const SizedBox(height: 10),
