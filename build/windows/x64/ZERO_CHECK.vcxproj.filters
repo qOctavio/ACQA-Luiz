@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\senin\Desktop\Luiz Octávio Almeida Silva\ACQA\acqa\build\windows\x64\CMakeFiles\dac6e97b65f47e8b91bf489fab9323a4\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1CAEA3BF-9F44-37CC-BE7D-662CBD4F6ABD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

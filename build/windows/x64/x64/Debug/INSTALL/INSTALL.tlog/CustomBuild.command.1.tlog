@@ -1,0 +1,10 @@
+^C:\USERS\SENIN\DESKTOP\LUIZ OCTÁVIO ALMEIDA SILVA\ACQA\ACQA\BUILD\WINDOWS\X64\CMAKEFILES\DAC6E97B65F47E8B91BF489FAB9323A4\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

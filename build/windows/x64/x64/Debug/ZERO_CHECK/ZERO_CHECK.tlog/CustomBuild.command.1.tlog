@@ -1,0 +1,10 @@
+^C:\USERS\SENIN\DESKTOP\LUIZ OCTÁVIO ALMEIDA SILVA\ACQA\ACQA\BUILD\WINDOWS\X64\CMAKEFILES\DAC6E97B65F47E8B91BF489FAB9323A4\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/senin/Desktop/Luiz Octávio Almeida Silva/ACQA/acqa/windows" "-BC:/Users/senin/Desktop/Luiz Octávio Almeida Silva/ACQA/acqa/build/windows/x64" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/senin/Desktop/Luiz Octávio Almeida Silva/ACQA/acqa/build/windows/x64/acqa.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

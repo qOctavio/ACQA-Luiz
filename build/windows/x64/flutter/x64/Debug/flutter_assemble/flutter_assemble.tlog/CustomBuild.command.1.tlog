@@ -1,0 +1,28 @@
+^C:\USERS\SENIN\DESKTOP\LUIZ OCTÁVIO ALMEIDA SILVA\ACQA\ACQA\BUILD\WINDOWS\X64\CMAKEFILES\96C74CA8B1790C95FA935C9A3E199D7E\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\senin\Downloads\flutter_windows_3.41.6-stable\flutter "PROJECT_DIR=C:\Users\senin\Desktop\Luiz Octávio Almeida Silva\ACQA\acqa" FLUTTER_ROOT=C:\Users\senin\Downloads\flutter_windows_3.41.6-stable\flutter "FLUTTER_EPHEMERAL_DIR=C:\Users\senin\Desktop\Luiz Octávio Almeida Silva\ACQA\acqa\windows\flutter\ephemeral" "PROJECT_DIR=C:\Users\senin\Desktop\Luiz Octávio Almeida Silva\ACQA\acqa" "FLUTTER_TARGET=C:\Users\senin\Desktop\Luiz Octávio Almeida Silva\ACQA\acqa\lib\main.dart" DART_DEFINES=RkxVVFRFUl9WRVJTSU9OPTMuNDEuNg==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049ZGI1MGUyMDE2OA==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049NDI1Y2ZiNTRkMA==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMS40 DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=C:\Users\senin\Desktop\Luiz Octávio Almeida Silva\ACQA\acqa\.dart_tool\package_config.json" C:/Users/senin/Downloads/flutter_windows_3.41.6-stable/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SENIN\DESKTOP\LUIZ OCTÁVIO ALMEIDA SILVA\ACQA\ACQA\BUILD\WINDOWS\X64\CMAKEFILES\80173AF002DC9ADCE321C0730E2F205C\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SENIN\DESKTOP\LUIZ OCTÁVIO ALMEIDA SILVA\ACQA\ACQA\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/senin/Desktop/Luiz Octávio Almeida Silva/ACQA/acqa/windows" "-BC:/Users/senin/Desktop/Luiz Octávio Almeida Silva/ACQA/acqa/build/windows/x64" --check-stamp-file "C:/Users/senin/Desktop/Luiz Octávio Almeida Silva/ACQA/acqa/build/windows/x64/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
